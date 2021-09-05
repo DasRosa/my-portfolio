@@ -118,7 +118,7 @@ nav {
   transition: var(--transition);
 }
 .show-container {
-  height: 8rem;
+  height: 7rem;
 }
 .social-icons {
   display: none;

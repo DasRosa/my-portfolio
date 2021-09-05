@@ -13,9 +13,6 @@ const Navbar = () => {
                 <div className={`${showLinks ? 'links-container show-container' : 'links-container'}`}>
                     <ul className='links'>
                         <li>
-                            <a href='/'>Home</a>
-                        </li>
-                        <li>
                             <a href='/post'>Post</a>
                         </li>
                         <li>

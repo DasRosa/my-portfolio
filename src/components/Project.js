@@ -35,11 +35,11 @@ const Project = () => {
                             <h3>{project.title}</h3>
                         </a>
                         <div className='project-info'>
-                        <div className='info'>
-                            <span><strong>Date:</strong> {new Date(project.date).toLocaleDateString()}</span>
-                            <span><strong>Location:</strong> {project.place}</span>
-                            <span><strong>Type:</strong> {project.projectType}</span>
-                        </div>
+                            <div className='info'>
+                                <span><strong>Date:</strong> {new Date(project.date).toLocaleDateString()}</span>
+                                <span><strong>Location:</strong> {project.place}</span>
+                                <span><strong>Type:</strong> {project.projectType}</span>
+                            </div>
                             <p>{project.description}</p>
                             <a href={project.link} target="_blank" rel="noopener noreferrer">
                                 View project <FaArrowCircleRight />
