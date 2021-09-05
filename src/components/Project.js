@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import sanityClient from '../client';
-import { FaArrowCircleRight, FaHandPointRight } from "react-icons/fa";
+import { FaArrowCircleRight } from "react-icons/fa";
 
 const Project = () => {
     const [projectData, setProjectData] = useState(null)
